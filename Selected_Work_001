@@ -1,0 +1,46 @@
+// ... existing imports and header section ...
+
+<main className="flex-1 container mx-auto px-4 py-8">
+  {/* ... existing menu and title section ... */}
+  
+  <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8 lg:gap-12">
+    <div className="w-full p-4 md:p-5 space-y-2">
+      <div className="text-[#656565] font-extrabold text-xl md:text-[28px] mb-6 md:mb-8 relative pl-6">
+        <span className="absolute -top-3 left-0 text-2xl">+</span>
+        APP: STUDIO
+      </div>
+      <div className="w-full aspect-[3/2] bg-gray-200" />
+      <h2 className="text-[#ff0099] text-[24px] font-bold mt-2">CONTACT FLOW TOOL</h2>
+      <div className="text-gray-500 text-sm font-bold leading-[1] mb-2">DESIGN DIRECTION</div>
+      <p className="text-gray-600 leading-[1.2] text-[12px] font-normal mt-10">
+        Messenger Rooms are joinable group video calls...
+      </p>
+    </div>
+
+    <div className="w-full p-4 md:p-5 space-y-2">
+      <div className="text-[#656565] font-extrabold text-xl md:text-[28px] mb-6 md:mb-8 relative pl-6">
+        <span className="absolute -top-3 left-0 text-2xl">+</span>
+        APP: AGENT
+      </div>
+      <div className="w-full aspect-[3/2] bg-gray-200" />
+      <h2 className="text-[#ff0099] text-[24px] font-bold mt-2">OMNICHANNEL AGENT SOFTWARE</h2>
+      <p className="text-gray-600 leading-[1.2] text-[12px] font-normal">
+        Highlight progress, gather feedback...
+      </p>
+    </div>
+
+    <div className="w-full p-4 md:p-5 space-y-2">
+      <div className="text-[#656565] font-extrabold text-xl md:text-[28px] mb-6 md:mb-8 relative pl-6">
+        <span className="absolute -top-3 left-0 text-2xl">+</span>
+        APP: SUPERVISOR
+      </div>
+      <div className="w-full aspect-[3/2] bg-gray-200" />
+      <h2 className="text-[#ff0099] text-[24px] font-bold mt-2">AI TOOL INFORMED</h2>
+      <p className="text-gray-600 leading-[1.2] text-[12px] font-normal">
+        Highlight progress, gather feedback...
+      </p>
+    </div>
+  </div>
+</main>
+
+// ... rest of the component
